@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    padding-right: 389px;
+    height: 30px;
+    background-color: #D8D5D5;
+    color: white;
+}
+.warp-container{
+    width: 960px;
+    height: auto;
+    margin: 0px auto;
+    background:url(OIP.jpg);
+}
+#menutop{
+    width: 100%;
+    float: left;
+    height: 40px;
+    background:url(OIP.jpg);
+}
+#menutop{
+    list-style-type: none;
+}
+#menutop ul li{
+    display: inline-block;
+}
+#menutop ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    color:rgb(243, 228, 12);
+    font-weight: bold;
+    padding: 10px;
+}
+#menutop ul li a:hover, #menutop li .current{
+    color:yellow;
+}
